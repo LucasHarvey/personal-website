@@ -71,6 +71,7 @@
     z-index: 1;
     color: white;
     font-weight: 700;
+    font-style: italic;
     font-size: 3vw;
     min-width: font;
 }

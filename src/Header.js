@@ -7,7 +7,7 @@ class Header extends Component {
     <div>
         <div className="firstName">LUCAS</div>
         <div className="lastName">HARVEY</div>
-        <div className="passions">Developer, Surfer and Entrepreneur</div>
+        <div className="passions">Developer, Surfer & Entrepreneur</div>
         <div className="passions-background">D</div>
         <div className="Header"></div>
     </div>
