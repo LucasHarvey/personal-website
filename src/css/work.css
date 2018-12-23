@@ -1,0 +1,7 @@
+.Work {
+    background-color: black;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

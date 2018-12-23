@@ -1,0 +1,36 @@
+.Navbar {
+    min-height: 50px;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+@keyframes slide-nav {
+    from {
+        transform: translate(-200px, 0px);
+    }
+    to {
+        transform: translate(0px, 0px);
+        }
+  }
+
+.navItem {
+    animation-name: slide-nav;
+    animation-duration: 1s;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.navItem > a {
+    text-align: center;
+}
+
+.navItem:hover {
+    color: grey;
+    cursor: pointer;
+}

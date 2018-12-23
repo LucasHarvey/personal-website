@@ -1,0 +1,89 @@
+.Header {
+    background-image: url("../Assets/water2.png");
+    flex-basis: 400px;
+    min-height: 400px;
+}
+
+/* The animation code */
+@keyframes slide-first {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 170px;
+        }
+  }
+
+  @keyframes slide-last {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 230px;
+        }
+  }
+
+  @keyframes slide-passions {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 60%;
+        }
+  }
+
+.firstName {
+    position: absolute;
+    color: white;  
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 10px 10px 10px 40px;
+    line-height: 40px;
+    top: 50px;
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    animation-name: slide-first;
+    animation-duration: 1s;
+}
+
+.lastName {
+    position: absolute;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    padding: 10px 10px 10px 40px;
+    line-height: 40px;
+    top: 115px;
+    width: 230px;
+    height: 40px;
+    background-color: black;
+    animation-name: slide-last;
+    animation-duration: 1s;
+}
+
+.passions {
+    position: absolute;
+    right: 0;
+    top: 250px;
+    padding: 10px 40px 10px 20px;
+    width: 60%;
+    z-index: 1;
+    color: white;
+    font-weight: 700;
+    font-size: 3vw;
+    min-width: font;
+}
+
+.passions-background {
+    position: absolute;
+    right: 0;
+    top: 250px;
+    width: 60%;
+    padding: 10px 40px 10px 20px;
+    font-size: 3vw;
+    z-index: 0;
+    background-color: black;
+    animation-name: slide-passions;
+    animation-duration: 1s;
+}
