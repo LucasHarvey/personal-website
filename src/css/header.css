@@ -44,7 +44,7 @@
     height: 40px;
     background-color: black;
     animation-name: slide-first;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 .lastName {
@@ -59,7 +59,7 @@
     height: 40px;
     background-color: black;
     animation-name: slide-last;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 .passions {
@@ -71,7 +71,6 @@
     z-index: 1;
     color: white;
     font-weight: 700;
-    font-style: italic;
     font-size: 3vw;
     min-width: font;
 }
@@ -86,5 +85,5 @@
     z-index: 0;
     background-color: black;
     animation-name: slide-passions;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }

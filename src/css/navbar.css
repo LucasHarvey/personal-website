@@ -20,7 +20,7 @@
 
 .navItem {
     animation-name: slide-nav;
-    animation-duration: 1s;
+    animation-duration: 2s;
     display: flex;
     flex-basis: 100%;
     justify-content: center;
