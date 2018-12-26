@@ -28,7 +28,8 @@
 
 .navItem > a {
     text-align: center;
-    font-size: 1.0em;
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 .navItem:hover {

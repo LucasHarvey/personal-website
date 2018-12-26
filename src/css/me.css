@@ -1,54 +1,122 @@
 .Me {
-    background-color: #46D2D1;
+    /* top colors:
+   #AEE9EC
+   #46D2D1 
+   #41C2C1
+   #9FD4DC
+   */
+    background-color: #98D0D7;
     min-height: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 50px 50px;
-}
-
-.about-me {
-    display: flex;
-
-    align-items: center;
+    padding: 50px 5%;
     font-size: 1.4em;
-    flex-wrap: wrap;
-}
-
-.about-me > * {
-    flex: 1 1 0;
-    padding-top: 10px;
 }
 
 .hello {
     display: flex;
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-left: solid 3px black;
-    padding-left: 75px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
-.content > .lists {
+img {
+    height: 275px!important;
+    margin-left: 40px;
+}
+
+.hello > .greeting {
+    flex-basis: 400px;
+    max-width: 1100px;
+    flex-grow: 1;
+    margin: 0px 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.6em!important;
+    }
+
+    .Me {
+        padding: 30px 0px !important;
+    }
+
+    img {
+        margin-left: 30px!important;
+    }
+
+    .hello > .greeting {
+        margin: 0px 30px !important;
+    }
+
+    .info > * {
+        margin: 0px 30px!important;
+    }
+}
+
+.info {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 100%;
+    
 }
 
-.content > .lists > * {
-    margin-right: 20px;
+.info > * {
+    margin: 0px 40px;
 }
 
 .skills {
+    flex-basis: 500px;
+    flex-grow: 1;
+}
+
+.facts {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.facts > ul {
+    max-width: 700px;
+}
+
+.skillsContent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .skillsContent{
+        flex-wrap: wrap;
+    }
+}
+
+.leftList {
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 600px){
+    .leftList {
+        margin-right: 0px!important;
+    }
+
+    .lists > * {
+        margin-right: 10px!important;
+    }
+}
+
+.lists {
     display: flex;
 }
 
+.lists > * {
+    margin-right: 20px;
+}
+
 span {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h1 {
@@ -58,6 +126,7 @@ h1 {
 
 h2 {
     margin: 10px 0px;
+    border-bottom: solid 2px black;
 }
 
 h3 {
@@ -67,13 +136,9 @@ h3 {
 p {
     margin: 10px 0px;
     font-size: 1.0em;
+    font-weight: 500;
 }
 
 ul {
-    margin: 10px 0px;
-}
-
-img {
-    max-height: 400px;
-    padding-right: 75px;
+    margin: 20px 0px;
 }
