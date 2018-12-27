@@ -2,6 +2,7 @@
     min-height: 50px;
     display: flex;
     flex-basis: 100%;
+    padding: 0px 40px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -21,13 +22,8 @@
 .navItem {
     animation-name: slide-nav;
     animation-duration: 2s;
-    display: flex;
-    flex-basis: 100%;
-    justify-content: center;
-}
-
-.navItem > a {
     text-align: center;
+    flex-basis: auto;
     font-size: 1.3em;
     font-weight: 600;
 }
@@ -35,4 +31,10 @@
 .navItem:hover {
     color: grey;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .Navbar {
+        padding: 0px 20px;
+    }
 }

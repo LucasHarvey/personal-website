@@ -59,7 +59,7 @@ class Me extends Component {
             <h2>Cool facts</h2>
             <ul>
               <li>I'm from Montreal and am fluent in both French <nobr>and English</nobr></li>
-              <li>I jumped off the world's highest commercial bridge for bungee jumping <nobr>(Bloukrans, South Africa)</nobr></li>
+              <li>I jumped off the world's highest bridge for commercial bungee jumping <nobr>(Bloukrans, South Africa)</nobr></li>
               <li>I love running and completed <nobr>a half-marathon</nobr></li>
               <li>I've surfed in Thailand, South Africa < nobr>and Peru</nobr></li>
             </ul>

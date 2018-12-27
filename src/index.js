@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
+import './css/style.css';
 import Header from './Header'
 import Navbar from './Navbar'
 import Me from './Me'

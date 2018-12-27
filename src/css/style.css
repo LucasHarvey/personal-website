@@ -1,4 +1,5 @@
-body {
-    display: flex;
-    align-items: column;
+@media only screen and (max-width: 600px) {
+    h1,h2,h3,p,a,li {
+        font-size: 0.7em!important;
+    }
 }

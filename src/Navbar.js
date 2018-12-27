@@ -6,11 +6,11 @@ class Navbar extends Component {
     return (
     <div>
         <div className="Navbar">
-           <div className="navItem"><a>ABOUT ME</a></div> 
-           <div className="navItem"><a>WORK</a></div>
-           <div className="navItem"><a>PROJECTS</a></div>
-           <div className="navItem"><a>RESUME</a></div>
-           <div className="navItem"><a>BLOG</a></div>
+           <a className="navItem">ABOUT ME</a> 
+           <a className="navItem">WORK</a>
+           <a className="navItem">PROJECTS</a>
+           <a className="navItem">RESUME</a>
+           <a className="navItem">BLOG</a>
         </div>
     </div>
     );
