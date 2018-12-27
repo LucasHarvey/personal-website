@@ -1,5 +1,27 @@
 @media only screen and (max-width: 650px) {
-    h1,h2,h3,p,a,li {
+    p,li {
         font-size: 0.6em!important;
+    }
+
+    h1 {
+        font-size: 1.0em!important;
+    }
+
+    h2 {
+        font-size: 0.8em!important;
+    }
+
+    h3 {
+        font-size: 0.8em!important;
+    }
+
+    a {
+        font-size: 0.8em!important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    a {
+        font-size: 0.7em!important;
     }
 }
