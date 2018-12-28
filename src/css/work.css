@@ -5,3 +5,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+.Work > p {
+    font-size: 3.0em;
+    text-align: center;
+    color: white;
+}

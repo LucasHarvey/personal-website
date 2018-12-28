@@ -6,8 +6,8 @@ class Work extends Component {
     return (
     <div>
       <div className="Work">
+        <p>In Progress...</p>
       </div>
-      <p></p>
     </div>
     );
   }
