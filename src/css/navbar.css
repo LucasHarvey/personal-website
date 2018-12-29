@@ -26,6 +26,8 @@
     flex-basis: auto;
     font-size: 1.3em;
     font-weight: 600;
+    color: white;
+    text-decoration: none;
 }
 
 .navItem:hover {

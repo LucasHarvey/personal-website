@@ -1,5 +1,6 @@
 .Header {
-    background-image: url("../Assets/water2.png");
+    background-image: url("../Assets/water.jpg");
+    background-size: cover;
     flex-basis: 400px;
     min-height: 400px;
 }
