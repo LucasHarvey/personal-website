@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
+import Tile from './Tile.js'
 import './css/projects.css';
 
 class Projects extends Component {

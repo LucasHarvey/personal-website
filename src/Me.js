@@ -10,9 +10,7 @@ class Me extends Component {
       <ScrollableAnchor id={'Me'}>
         <div className="Me">
           <div className="hello">
-            <div>
-              <img src={me}></img>
-            </div>
+            <img src={me}></img>
             <div className="greeting">
               <h1>Hey there!</h1>
               <p>

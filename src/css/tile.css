@@ -1,0 +1,27 @@
+.Tile {
+    position: relative;
+    width: 30vw;
+    min-width: 300px;
+    height: 30vw;
+    min-height: 300px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #98D0D7;
+    color: white;
+}
+
+.Tile > p {
+    text-align: center;
+}
+
+.Tile > img {
+    width: 60%;
+    height: auto;
+
+
+}
+
+
